@@ -1,0 +1,43 @@
+{
+  "subjectArea" : {
+    "name" : "Sample Sales Lite",
+    "description" : "Sample Subject Area for 11g Lite Sample Application (XML files sourced only). Bd.11028",
+    "sourceBusinessModel" : "businessModel:SampleApp Lite",
+    "implicitFactColumn" : "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Revenue",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sample Sales Lite.Time",
+      "children" : [ {
+        "name" : "presentationTable:Sample Sales Lite.More Time Objects"
+      } ]
+    }, {
+      "name" : "presentationTable:Sample Sales Lite.Offices",
+      "children" : [ {
+        "name" : "presentationTable:Sample Sales Lite.Products",
+        "children" : [ {
+          "name" : "presentationTable:Sample Sales Lite.D30 Product",
+          "children" : [ {
+            "name" : "presentationTable:Sample Sales Lite.Orders",
+            "children" : [ {
+              "name" : "presentationTable:Sample Sales Lite.Orders Dates"
+            } ]
+          } ]
+        }, {
+          "name" : "presentationTable:Sample Sales Lite.More Product Objects"
+        } ]
+      }, {
+        "name" : "presentationTable:Sample Sales Lite.More Office Objects"
+      } ]
+    }, {
+      "name" : "presentationTable:Sample Sales Lite.Base Facts",
+      "children" : [ {
+        "name" : "presentationTable:Sample Sales Lite.Calculated Facts"
+      } ]
+    }, {
+      "name" : "presentationTable:Sample Sales Lite.Time Series"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:BIConsumer",
+      "access" : "WRITE"
+    } ]
+  }
+}

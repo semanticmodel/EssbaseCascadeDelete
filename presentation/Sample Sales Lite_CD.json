@@ -1,0 +1,24 @@
+{
+  "subjectArea" : {
+    "name" : "Sample Sales Lite_CD",
+    "sourceBusinessModel" : "businessModel:SampleApp Lite_CD",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Sample Sales Lite_CD.D0 Time"
+    }, {
+      "name" : "presentationTable:Sample Sales Lite_CD.D2 Offices",
+      "children" : [ {
+        "name" : "presentationTable:Sample Sales Lite_CD.D1 Products",
+        "children" : [ {
+          "name" : "presentationTable:Sample Sales Lite_CD.D30 Product",
+          "children" : [ {
+            "name" : "presentationTable:Sample Sales Lite_CD.D3 Orders (Facts Attributes)"
+          } ]
+        } ]
+      } ]
+    }, {
+      "name" : "presentationTable:Sample Sales Lite_CD.F0 Revenue Base Measures"
+    }, {
+      "name" : "presentationTable:Sample Sales Lite_CD.F1 Targets Base Measures"
+    } ]
+  }
+}

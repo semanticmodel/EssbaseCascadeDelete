@@ -1,0 +1,12 @@
+{
+  "presentationTable" : {
+    "name" : "F1 Targets Base Measures",
+    "presentationColumns" : [ {
+      "name" : "Target Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F1 Targets Base Measures.Target Revenue"
+    }, {
+      "name" : "Target Quantity",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F1 Targets Base Measures.Target Quantity"
+    } ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "presentationTable" : {
+    "name" : "D3 Orders (Facts Attributes)",
+    "presentationColumns" : [ {
+      "name" : "Order Number",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Number"
+    }, {
+      "name" : "Order Status",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Status"
+    }, {
+      "name" : "Order Type",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Type"
+    }, {
+      "name" : "Order Size Bin",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Size Bin"
+    }, {
+      "name" : "Order to Bill Days",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order to Bill Days"
+    }, {
+      "name" : "Order to Bill Days Bin",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order to Bill Days Bin"
+    }, {
+      "name" : "Order Date",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Date"
+    }, {
+      "name" : "Order Month",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Month"
+    }, {
+      "name" : "Order Year",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Year"
+    }, {
+      "name" : "Billed Date",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Billed Date"
+    }, {
+      "name" : "Billed Month",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Billed Month"
+    }, {
+      "name" : "Billed Year",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D3 Orders (Facts Attributes).Billed Year"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H3 Orders",
+      "sourceLogicalTable" : "logicalTable:SampleApp Lite_CD.D3 Orders (Facts Attributes)",
+      "levels" : [ {
+        "name" : "Total Orders",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D3 Orders (Facts Attributes).Total Orders"
+      }, {
+        "name" : "Order Type",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Type",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D3 Orders (Facts Attributes).Order Type"
+      }, {
+        "name" : "Order Details",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D3 Orders (Facts Attributes).Order Details",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D3 Orders (Facts Attributes).Order Number"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "physicalTable" : {
+    "name" : "D30 Product",
+    "description" : "based on SAMP_PRODUCT_D_1",
+    "sourceTable" : "physicalTable:Sample App Lite Data.SAMP_PRODUCTS_D_1",
+    "overrideSourceCacheSetting" : false
+  }
+}

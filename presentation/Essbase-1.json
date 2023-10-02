@@ -1,0 +1,9 @@
+{
+  "subjectArea" : {
+    "name" : "Essbase-1",
+    "sourceBusinessModel" : "businessModel:Test-BusinessModel",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Essbase-1.Caffeinated"
+    } ]
+  }
+}

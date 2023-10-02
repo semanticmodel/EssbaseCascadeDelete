@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "Essbase-2",
+    "sourceBusinessModel" : "businessModel:Test-BusinessModel-1",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Essbase-2.Caffeinated"
+    }, {
+      "name" : "presentationTable:Essbase-2.Measures"
+    }, {
+      "name" : "presentationTable:Essbase-2.SAMP_CUBE_TABLE"
+    } ]
+  }
+}

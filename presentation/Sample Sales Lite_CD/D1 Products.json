@@ -1,0 +1,63 @@
+{
+  "presentationTable" : {
+    "name" : "D1 Products",
+    "presentationColumns" : [ {
+      "name" : "Product Number",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Product Number"
+    }, {
+      "name" : "Product",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Product"
+    }, {
+      "name" : "Product Type",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Product Type"
+    }, {
+      "name" : "Product Type Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Product Type Key"
+    }, {
+      "name" : "LOB",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.LOB"
+    }, {
+      "name" : "LOB Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.LOB Key"
+    }, {
+      "name" : "Brand",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Brand"
+    }, {
+      "name" : "Brand Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Brand Key"
+    }, {
+      "name" : "Product Sequence",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Product Sequence"
+    }, {
+      "name" : "ADerived",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.ADerived"
+    }, {
+      "name" : "Attribute_1",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D1 Products.Attribute_1"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H1 Products",
+      "sourceLogicalTable" : "logicalTable:SampleApp Lite_CD.D1 Products",
+      "levels" : [ {
+        "name" : "Total Products",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D1 Products.Total Products"
+      }, {
+        "name" : "Products Brand",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D1 Products.Products Brand",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D1 Products.Brand"
+      }, {
+        "name" : "Products LOB",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D1 Products.Products LOB",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D1 Products.LOB"
+      }, {
+        "name" : "Products Type",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D1 Products.Products Type",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D1 Products.Product Type"
+      }, {
+        "name" : "Products Detail",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D1 Products.Products Detail",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D1 Products.Product"
+      } ]
+    } ]
+  }
+}

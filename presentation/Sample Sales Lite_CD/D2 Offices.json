@@ -1,0 +1,57 @@
+{
+  "presentationTable" : {
+    "name" : "D2 Offices",
+    "presentationColumns" : [ {
+      "name" : "Office",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Office"
+    }, {
+      "name" : "Office Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Office Key"
+    }, {
+      "name" : "Department",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Department"
+    }, {
+      "name" : "Dept Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Dept Key"
+    }, {
+      "name" : "Organization",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Organization"
+    }, {
+      "name" : "Org Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Org Key"
+    }, {
+      "name" : "Company",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Company"
+    }, {
+      "name" : "Company Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Company Key"
+    }, {
+      "name" : "Office Sequence",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D2 Offices.Office Sequence"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H2 Offices",
+      "sourceLogicalTable" : "logicalTable:SampleApp Lite_CD.D2 Offices",
+      "levels" : [ {
+        "name" : "Total Offices",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D2 Offices.Total Offices"
+      }, {
+        "name" : "Offices Company",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D2 Offices.Offices Company",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D2 Offices.Company"
+      }, {
+        "name" : "Offices Organization",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D2 Offices.Offices Organization",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D2 Offices.Organization"
+      }, {
+        "name" : "Offices Department",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D2 Offices.Offices Department",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D2 Offices.Department"
+      }, {
+        "name" : "Offices Detail",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D2 Offices.Offices Detail",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D2 Offices.Office"
+      } ]
+    } ]
+  }
+}

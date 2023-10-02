@@ -1,0 +1,80 @@
+{
+  "presentationTable" : {
+    "name" : "D0 Time",
+    "presentationColumns" : [ {
+      "name" : "Calendar Date",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Calendar Date"
+    }, {
+      "name" : "Per Name Week",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Per Name Week"
+    }, {
+      "name" : "Per Name Month",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Per Name Month"
+    }, {
+      "name" : "Per Name Qtr",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Per Name Qtr"
+    }, {
+      "name" : "Per Name Half",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Per Name Half"
+    }, {
+      "name" : "Per Name Year",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Per Name Year"
+    }, {
+      "name" : "Row Wid",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Row Wid"
+    }, {
+      "name" : "Day Of Week",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Day Of Week"
+    }, {
+      "name" : "Day Of Month",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Day Of Month"
+    }, {
+      "name" : "Day Of Year",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Day Of Year"
+    }, {
+      "name" : "Julian Day Num",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Julian Day Num"
+    }, {
+      "name" : "Julian Week Num",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Julian Week Num"
+    }, {
+      "name" : "Julian Month Num",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Julian Month Num"
+    }, {
+      "name" : "Julian Qtr Num",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.D0 Time.Julian Qtr Num"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H0 Time",
+      "sourceLogicalTable" : "logicalTable:SampleApp Lite_CD.D0 Time",
+      "levels" : [ {
+        "name" : "Total Time",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Total Time"
+      }, {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Year",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D0 Time.Per Name Year"
+      }, {
+        "name" : "Half",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Half",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D0 Time.Per Name Half"
+      }, {
+        "name" : "Quarter",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Quarter",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D0 Time.Per Name Qtr"
+      }, {
+        "name" : "Month",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Month",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D0 Time.Per Name Month"
+      }, {
+        "name" : "Week",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Week",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D0 Time.Per Name Week"
+      }, {
+        "name" : "Day Detail",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite_CD.D0 Time.Day Detail",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_CD.D0 Time.Calendar Date"
+      } ]
+    } ]
+  }
+}

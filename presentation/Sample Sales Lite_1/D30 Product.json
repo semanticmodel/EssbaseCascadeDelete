@@ -1,0 +1,59 @@
+{
+  "presentationTable" : {
+    "name" : "D30 Product",
+    "presentationColumns" : [ {
+      "name" : "Brand",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Brand"
+    }, {
+      "name" : "Attribute_2",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Attribute_2"
+    }, {
+      "name" : "LOB",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.LOB"
+    }, {
+      "name" : "Prod_Dsc",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Prod_Dsc"
+    }, {
+      "name" : "Prod_Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Prod_Key"
+    }, {
+      "name" : "Sequence",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Sequence"
+    }, {
+      "name" : "Attribute_1",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Attribute_1"
+    }, {
+      "name" : "Type",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Type"
+    }, {
+      "name" : "Brand_Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Brand_Key"
+    }, {
+      "name" : "Type_Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.Type_Key"
+    }, {
+      "name" : "LOB_Key",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite.D30 Product.LOB_Key"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H3 Products",
+      "sourceLogicalTable" : "logicalTable:SampleApp Lite.D30 Product",
+      "levels" : [ {
+        "name" : "Products Total",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite.D30 Product.Products Total"
+      }, {
+        "name" : "Products Brand",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite.D30 Product.Products Brand",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_1.D30 Product.Brand"
+      }, {
+        "name" : "Products LOB",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite.D30 Product.Products LOB",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_1.D30 Product.LOB"
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:SampleApp Lite.D30 Product.Detail",
+        "displayColumn" : "presentationColumn:Sample Sales Lite_1.D30 Product.Prod_Key"
+      } ]
+    } ]
+  }
+}

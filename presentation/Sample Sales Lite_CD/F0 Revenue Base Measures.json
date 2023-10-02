@@ -1,0 +1,81 @@
+{
+  "presentationTable" : {
+    "name" : "F0 Revenue Base Measures",
+    "presentationColumns" : [ {
+      "name" : "Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Revenue"
+    }, {
+      "name" : "Billed Quantity",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Billed Quantity"
+    }, {
+      "name" : "Discount Amount",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Discount Amount"
+    }, {
+      "name" : "# of Offices with Orders",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.# of Offices with Orders"
+    }, {
+      "name" : "# of Orders",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.# of Orders"
+    }, {
+      "name" : "# of Products with Orders",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.# of Products with Orders"
+    }, {
+      "name" : "Actual Unit Price",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Actual Unit Price"
+    }, {
+      "name" : "Target Unit Price",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Target Unit Price"
+    }, {
+      "name" : "Avg Order Size",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Avg Order Size"
+    }, {
+      "name" : "Target Completion  (Rev Pct)",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Target Completion  (Rev Pct)"
+    }, {
+      "name" : "---------- Dynamic Time Level ---------------------",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.---------- Dynamic Time Level ---------------------"
+    }, {
+      "name" : "Period Ago Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Period Ago Revenue"
+    }, {
+      "name" : "Revenue Variation to Last Period",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Revenue Variation to Last Period"
+    }, {
+      "name" : "Revenue Pct Var. to Last Period",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Revenue Pct Var\\. to Last Period"
+    }, {
+      "name" : "Trailing 3 Periods Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Trailing 3 Periods Revenue"
+    }, {
+      "name" : "---------- Fixed Time Level ---------------------------",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.---------- Fixed Time Level ---------------------------"
+    }, {
+      "name" : "Month Ago Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Month Ago Revenue"
+    }, {
+      "name" : "Quarter Ago Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Quarter Ago Revenue"
+    }, {
+      "name" : "Year Ago Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Year Ago Revenue"
+    }, {
+      "name" : "Quarter to Date Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Quarter to Date Revenue"
+    }, {
+      "name" : "----------- Level Based Measures -----------------",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.----------- Level Based Measures -----------------"
+    }, {
+      "name" : "Full Month Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Full Month Revenue"
+    }, {
+      "name" : "Full Quarter Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.Full Quarter Revenue"
+    }, {
+      "name" : "All Offices Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.All Offices Revenue"
+    }, {
+      "name" : "All Products Revenue",
+      "sourceLogicalColumn" : "logicalColumn:SampleApp Lite_CD.F0 Revenue Base Measures.All Products Revenue"
+    } ]
+  }
+}
